@@ -1,0 +1,530 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+html{
+ color: white;
+ font-family: monospace;
+}
+.video{
+ position: fixed;  
+ z-index: -1;
+ opacity: 0.6;
+}
+
+.video video{
+ width: 100%;
+ height: 100%;
+ top: 0px;
+ left: 0px;
+}
+ 
+/**Navigation Section**/
+#navbar ul {
+ display: flex;
+ align-items: center;
+ position: fixed;
+ background-color: rgba(187, 187, 186, 0.342);
+ width: 100%;
+ z-index: 100;
+}
+ 
+#navbar ul h1{
+ font-weight: bold;
+ color: white;
+ font-size: 32px;
+ margin:10px 50px 10px 20px;
+}
+
+#navbar ul .n-item{
+ display: flex;
+}
+
+#navbar ul li{
+ list-style: none;
+}
+
+#navbar ul li a{
+ text-decoration: none;
+ display: block;
+ margin:0 15px;
+ color: white;
+ font-weight: bold;
+ padding: 3px 12px;
+ font-size: 16px;
+}
+
+#navbar ul li a:hover{
+ text-decoration: underline;
+ cursor: pointer;
+}
+ 
+
+/** Home Section**/
+
+#home{
+ width: 100%;
+}
+               
+.home-item{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ height: 800px;
+}
+               
+.home-item::before{
+ content: "";
+ position: fixed;
+ background-image: linear-gradient(to top right,rgb(119, 230, 245),rgb(39, 156, 252));
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.5;
+ top: 0px;
+ left: 0px;
+}
+
+.home-item h2{
+ font-size: 32px;
+}
+
+.home-item h1{
+ font-size: 130px;
+ font-weight: bold;
+}
+
+.home-item p{
+ font-size: 20px;
+ display: block;
+ width: 585px;
+ margin: 10px;
+ padding: 10px;
+}
+      
+.home-item .png{
+ cursor: pointer;
+ filter: invert(100%);
+ padding-top: 80px;
+ margin: 30px;
+}
+
+#home .icon{
+ display: flex;
+ flex-direction: column;
+ position: fixed;
+ top: 37%;
+ right: 0%;
+}
+
+#home .icon ul li{
+ list-style: none;
+}
+               
+#home .icon ul li a{
+ display: block;
+ color: white;
+ background-color: rgba(250,250,250,0.25);
+ padding: 18px;
+ margin: 2px;
+}
+                 
+ #home .icon ul li a:hover{
+ background-color: black;
+  cursor: pointer;
+}
+     
+/** About Section**/
+
+#about{
+ padding: 130px;
+} 
+
+#about .about-item{
+ display: flex;
+ padding: 8px 0px 0 232px;
+ flex-direction: column;
+}
+ 
+#about-box{
+ display: flex;
+ width: 500px;
+ margin-left: 211px;
+}
+
+#about-box .box{
+ background-color: rgba(250,250,250,0.25);
+ border-radius: 10px;
+ width: 20%;
+ text-align: center;
+ margin: 20px;
+ padding: 35px 10px;
+} 
+                        
+#about-box .box:hover{
+ background-color: black;
+}
+
+#about-box .box h4{
+ display: block;
+ margin: 10px 0;
+ font-size: 13px;
+}
+                    
+#about-box .box i{
+ display: block;
+ margin: 10px;
+}
+
+.about1{
+ display: flex;
+}
+
+.about2{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.img{
+ margin: 0 100px 0 70px;
+}
+                        
+.img img{
+ border-radius: 10px; 
+}
+
+/** Services section**/
+
+#services{
+ padding: 140px 0 60px 0;
+}
+                        
+#services .services-item{
+ text-align: center;
+ padding-bottom: 25px;
+}
+
+#services-box{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#services-box .ser-box{
+ position: relative;
+ background-color: rgba(250,250,250,0.25);
+ border-radius: 10px;
+ width: 18%;
+ text-align: center;
+ margin: 15px;
+ padding: 40px 5px;
+}
+                        
+#services-box .ser-box:hover{
+ background-color: black;
+}
+                         
+#services-box .ser-box i{
+ padding: 20px;
+ font-size: 50px;
+}
+
+#services-box .ser-box h1{
+ padding: 30px;
+}
+
+#services-box .ser-box p{
+ font-size: 14px;
+ font-weight: bold;
+}
+                        
+/** Skills Section**/
+
+#skills{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 140px 0 0 0;
+}
+
+#skills .skills-item{
+ text-align: center;
+ padding-bottom: 25px;  
+}
+
+#skills-box{
+ display: flex;
+ flex-direction: column;
+}
+
+#skills-box .s-box{
+ display: flex;
+ padding-top: 30px; 
+ padding-bottom: 30px;
+ border-bottom: 1px solid rgba(250,250,250,0.25);
+ width: 120%;
+}
+                        
+#skills-box .circle{
+display: inline-block;
+width: 50px;
+height: 50px;
+background-color: white;
+border-radius: 100%;
+color: black;
+text-align: center;
+}
+                     
+#skills-box .circle h3{
+ position: relative;
+ top: 30%;
+}
+                     
+#skills-box .line1{
+ position: relative;
+ right: 2px;
+ top: 25px;
+ width: 350px;
+ height:6px;
+ background-color: rgba(250,250,250,0.25);
+ border-radius: 100px;
+}
+
+#skills-box .line1::before{
+ content: "";
+ position: absolute;
+ left: 0px;
+ bottom: 0px;
+ width: 245px;
+ height:6px;
+ background-color: white;
+ border-radius: 100px;
+}
+
+#skills-box .line2{
+ position: relative;
+ right: 2px;
+ top: 25px;
+ width: 350px;
+ height:6px;
+ background-color: rgba(250,250,250,0.25);
+ border-radius: 100px;
+}
+
+#skills-box .line2::before{
+ content: "";
+ position: absolute;
+ left: 0px;
+ bottom: 0px;
+ width: 315px;
+ height:6px;
+ background-color: white;
+ border-radius: 100px;
+}
+
+#skills-box .sk-box{
+ position: relative;
+ font-weight: bold;
+ top: 18px;
+ left: 120px;
+ font-size: 18px;
+}
+                       
+/**My Work Section**/
+
+#work{
+ padding: 140px 0 80px 0;
+}
+
+#work .work-item{
+ text-align: center;
+ padding-bottom: 25px;
+}
+                        
+#work-box{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#work-box .wk-box{
+ position: relative;
+ text-align: center;
+ margin: 18px;
+ padding: 40px;
+}
+    
+#work-box .wk-box img{
+ display: block;
+ border-radius: 15px;
+ padding: 3px;
+}
+
+#work-box .wk-box h3{
+ position: relative;
+ bottom: 47px;
+ background-color: rgba(250,250,250,0.25);
+ padding-top: 13px;
+ padding-bottom: 14px;
+ margin-left: 3px;
+ width: 370px;
+}
+
+/**Testimonials Section**/
+
+#test{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 150px 0 0 0;
+}
+
+#test .test-item{
+ text-align: center;
+ padding-bottom: 40px;
+}
+
+#test-box{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ background-color: rgba(250,250,250,0.25);
+ border-radius: 10px;
+ text-align: center;
+ margin: 15px;
+ padding: 30px 0 0 0;
+ width: 50%;
+}
+
+#test-box .t-img{
+ position: relative;
+ width: 141px;
+}
+                     
+#test-box .t-img img{
+ display: block;
+ border-radius: 80px;
+ margin-bottom: 25px;
+}
+                     
+#test-box .t-box{
+ display: block;
+ width: 80%;
+ padding: 8px;
+}
+                        
+#test-box .t-box h2{
+ display: block;
+ margin: 18px;
+}
+                        
+#test-box .t-box span{
+ display: block;
+ margin: 30px;
+ font-size: 19px;
+}
+
+#test-box .t-box p{
+ font-weight: bold;
+ font-size: 14px; 
+}
+
+/**Contact Section**/
+                       
+#contact{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 220px 0 20px 0 ;
+}
+
+#contact .contact-item{
+ text-align: center;
+ padding-bottom: 25px;  
+}
+
+#contact-box{
+ display: flex;
+}
+
+#contact-box .ct-box{
+ display: flex;
+ flex-direction: column;
+}
+
+#contact-box .ct-box .cb1{
+ background-color: rgba(250,250,250,0.25);
+ padding: 40px;
+ margin: 10px;
+ width: 65%;
+ border-radius: 10px;
+ font-size: 18px;
+ font-weight: bold;
+ display: flex;
+ align-items: center;
+}
+
+#contact-box .ct-box .cb1 i{
+ font-size: 30px;
+ margin:0 25px 0 0;
+}
+
+#contact-box .ct-box .int{
+ border:1px solid rgba(250, 250, 250, 0.863);
+ background: none;
+ padding: 15px;
+ margin: 10px 0 15px 0;
+ border-radius: 10px;
+ font-size: 17px;
+}
+
+                        
+#contact-box .ct-box .btn{
+ border: none;
+ background-color: white;
+ padding: 15px;
+ margin: 10px 0 15px 0;
+ border-radius: 10px;
+ color: black;
+ font-size: 17px;
+ font-weight: bold;
+} 
+                     
+#contact-box .ct-box .btn:hover{
+ border:2px solid white;
+ background:none;
+ padding: 15px;
+ margin: 10px 0 15px 0;
+ border-radius: 10px;
+ color: white;
+ font-size: 17px;
+ font-weight: bold;
+ cursor: pointer;
+}
+                                          
+::placeholder{
+ color: white;
+}
+
+/**  Common Classes**/
+
+.hed1{
+ font-size: 42px;
+ font-weight: bold;
+}
+
+.hed2{
+ font-size: 25px;
+}
+
+.para{
+ font-size: 18px;
+}
+

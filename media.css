@@ -1,0 +1,503 @@
+/* First Media */
+@media (max-width: 1400px) {
+
+
+/**Navigation Section**/
+#navbar ul {
+flex-direction: column;
+background-color: white;
+justify-content: center;
+}
+
+#navbar ul h1{
+ color: black;
+ font-size: 32px;
+ margin:10px 20px;
+}
+
+#navbar ul li a{
+ margin:0 7px;
+ color: black;
+ padding: 3px 5px;
+ font-size: 14px;
+}
+
+/** Home Section**/
+.home-item{
+ height: 750px;
+}
+
+.home-item h2{
+ font-size: 28px;
+}
+
+.home-item h1{
+ font-size: 80px;
+}
+
+.home-item p{
+ font-size: 18px;
+ width: 540px;
+ margin: 25px;
+ padding: 10px;
+}
+
+.home-item .png{
+ padding-top: 65px;
+ margin: 20px;
+}
+
+#home .icon{
+ top: 30%;
+}
+
+#home .icon ul li a{
+ padding: 14px;
+}
+
+/** About Section**/
+#about{
+ padding: 50px;
+}
+
+#about .about-item{
+ padding: 60px 0px 0 130px;
+}
+
+#about-box{
+ width: 500px;
+ margin-left: 115px;
+}
+
+.about1{
+ flex-direction: column;
+}
+
+.img{
+ margin: 0 0px 0 135px;
+}
+                           
+.img img{
+ border-radius: 10px;
+ width: 250px; 
+ height: 270px;
+}
+
+/** Services section**/
+#services-box .ser-box{
+ width: 25%;;
+ margin: 15px;
+ padding: 35px 3px;
+}
+
+/** Skills Section**/
+#skills-box .circle{
+ width: 40px;
+ height: 40px;
+}
+
+#skills-box .s-box{
+ width: 118%;
+}
+
+#skills-box .line1{
+ top: 18px;
+ width: 275px;
+ height: 5px;
+}
+
+#skills-box .line1::before{
+ width: 247.5px;
+ height: 5px;
+}
+
+#skills-box .line2{
+ top: 18px;
+ width: 275px;
+ height: 5px;
+}
+   
+#skills-box .line2::before{
+ width: 192.5px;
+ height: 5px;
+}
+
+#skills-box .sk-box{
+ top: 13px;
+ left: 85px;
+ font-size: 16px;
+}
+
+/**My Work Section**/
+#work-box{
+ flex-wrap: wrap;
+}
+
+#work-box .wk-box{
+ margin: 0px;
+ padding: 0px;
+}
+
+#work-box .wk-box img{
+ width: 230px;
+ margin: 3px;
+ padding: 3px;
+}
+
+#work-box .wk-box h3{
+ font-size: 13px;
+ bottom: 37px;
+ padding-top: 8px;
+ padding-bottom: 8px;
+ width: 230px;
+ margin-left: 6px;
+}
+
+/**Testimonials Section**/
+#test-box{
+ margin: 10px;
+ padding: 15px 0 0 0;
+ width: 70%;
+}
+
+#test-box .t-img{
+ width: 121px;
+}
+
+#test-box .t-img img{
+ width: 120px;
+ margin-bottom: 15px;
+}
+
+#test-box .t-box{
+ width: 60%;
+ padding: 0px;
+}
+
+/**Contact Section**/
+#contact{
+ padding: 160px 0 20px 0 ;
+}
+
+#contact .contact-item{
+ padding-bottom: 10px;  
+}
+
+#contact-box{
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+#contact-box .ct-box{
+ margin-top: 20px;
+}
+
+#contact-box .ct-box .cb1{
+ padding: 10px;
+ margin: 5px;
+ width: 94%;
+ font-size: 15px;
+}
+
+#contact-box .ct-box .cb1 i{
+ font-size: 27px;
+ margin:0 15px 0 0;
+}
+
+#contact-box .ct-box .int{
+ padding: 10px;
+ margin: 10px 0 0px 0;
+ font-size: 16px;
+}
+
+#contact-box .ct-box .btn{
+ padding: 10px;
+ margin: 10px 0 0px 0;
+ font-size: 16px;
+}
+
+/* Common */
+.hed1{
+ font-size: 36px;
+}
+   
+.hed2{
+ font-size: 22px;
+}
+   
+.para{
+ font-size: 16px;
+}
+
+}
+
+/* Burger */
+
+.burger{
+ display: none;
+ position: absolute;
+ cursor: pointer;
+ left: 35px;
+ top: 20px;
+}
+
+.line{
+ width: 33px;
+ background-color: black;
+ height: 4px;
+ margin: 4px 3px;
+ border-radius: 10px;
+}
+
+
+
+/* Second Media */
+
+@media (max-width: 420px){
+
+/* Video */
+.video video{
+ width: 100%;
+ height: 100%;
+ top: 0px;
+ left: 0px;
+}   
+
+/* Navigation */
+.navbar{
+ width: 300px;
+ height: 250px;
+ transition: all 0.7s ease-out;
+}
+
+
+.n-item{
+ flex-direction: column;
+ align-items: center;
+ margin: 5px 0;
+}
+
+.burger{
+ display: block;
+}
+
+.h-nav-resp{
+ height: 65px;
+}
+
+.v-class-resp{
+ opacity: 0;
+}
+
+/* Home */
+.home-item{
+ height: 920px;
+}
+   
+.home-item h2{
+ font-size: 18px;
+}
+   
+.home-item h1{
+ font-size: 50px;
+}
+   
+.home-item p{
+ font-size: 14px;
+ width: 245px;
+ margin: 12px;
+ padding: 5px;
+ height: 190px;
+}
+   
+.home-item .png{
+ padding-top: 0px;
+ margin: 12px;
+}
+   
+#home .icon{
+ top: 24%;
+}
+   
+#home .icon ul li a{
+ padding: 6px;
+ margin: 2px 0 0 0;
+}
+
+/** About Section**/
+#about{
+ padding: 50px 0px 30px 30px;
+ width: 200px;
+}
+  
+#about .about-item{
+ padding: 20px 0px 0 20px;
+}
+  
+#about-box{
+ flex-direction: column;
+ width: 200px;
+ margin-left: 10px;
+}
+
+#about-box .box{
+ width: 120px;
+ margin: 10px;
+ padding: 30px 6px;
+}
+
+   
+.img{
+ margin: 0 0px 0 20px;
+}
+                             
+.img img{
+ width: 180px; 
+ height: 200px;
+}
+
+/** Services section**/
+#services{
+ padding: 70px 0 0px 0;
+}
+
+#services .services-item {
+ padding-bottom: 10px;
+}
+
+#services-box{
+ flex-direction: column; 
+}
+
+#services-box .ser-box{
+ width: 180px;
+ margin: 8px 0;
+ padding: 10px 3px;
+}
+
+#services-box .ser-box h1 {
+ padding: 12px;
+}
+
+#services-box .ser-box p {
+ font-size: 12px;
+}
+
+#services-box .ser-box i {
+ padding: 8px;
+ font-size: 30px;
+}
+
+/** Skills Section**/
+#skills {
+ padding: 100px 0 0 0;
+}
+
+#skills-box .circle{
+ width: 35px;
+ height: 35px;
+}
+   
+#skills-box .s-box{
+ flex-wrap: wrap;
+ width: 200px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+   
+#skills-box .line1{
+ top: 18px;
+ width: 160px;
+ height: 4px;
+}
+   
+#skills-box .line1::before{
+ width: 112px;
+ height: 4px;
+}
+   
+#skills-box .line2{
+ top: 18px;
+ width: 160px;
+ height: 4px;
+}
+      
+#skills-box .line2::before{
+ width: 144px;
+ height: 4px;
+}
+   
+#skills-box .sk-box{
+ font-size: 14px;
+}
+
+/**My Work Section**/
+#work {
+ padding: 110px 0 0px 0;
+}
+
+#work-box .wk-box img{
+ width: 200px;
+}
+   
+#work-box .wk-box h3{
+ width: 200px;
+}
+
+/**Testimonials Section**/
+#test {
+    padding: 100px 0 0px 0;
+}
+
+#test-box {
+    width: 65%;
+}
+   
+/**Contact Section**/
+#contact{
+ padding: 100px 0 30px 0 ;
+}
+
+   
+#contact-box .ct-box .cb1 {
+ padding: 5px;
+ width: 200px;
+ font-size: 13px;
+ border-radius: 6px;
+}
+   
+#contact-box .ct-box .cb1 i{
+ font-size: 18px;
+ margin:0 10px 0 0;
+}
+   
+#contact-box .ct-box .int {
+ padding: 5px;
+ margin: 8px 0 0px 0;
+ font-size: 14px;
+ width: 200px;
+ border-radius: 6px;
+}
+   
+#contact-box .ct-box .btn{
+ padding: 5px;
+ margin: 8px 0 0px 0;
+ font-size: 14px;
+ border-radius: 6px;
+}
+ 
+/* Common */
+.hed1{
+ font-size: 28px;
+}
+      
+.hed2{
+ font-size: 16px;
+}
+      
+.para{
+ font-size: 14px;
+}
+
+}
